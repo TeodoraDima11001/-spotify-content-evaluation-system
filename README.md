@@ -86,3 +86,20 @@ Content engagement ranking:
 - Content Taxonomy Design
 - Annotation System Evaluation
 - Product Analytics
+  ## How to Run This Project
+
+Install dependencies:
+
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+Go to project folder:
+
+cd ~/Desktop/spotify_project
+
+Run dataset generator:
+
+python3 src/generate_dataset.py
+
+Run analysis:
+
+python3 src/evaluation_engine.py
